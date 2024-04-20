@@ -1,1 +1,17 @@
+@media (orientation: portrait) and (max-width: 450px) {
+    
+}
+body{
+    background-color: #ECECEC;
+}
+.test{
+    margin-top: 10px;
+}
+.write{
+    margin-top: 60px;
+}
+.one{
+    background-color: rgb(61,123,61, 0.5);
+    
+}
 
