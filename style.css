@@ -6,12 +6,62 @@ body{
 }
 .test{
     margin-top: 10px;
+    border-radius: 40%;
 }
 .write{
     margin-top: 60px;
 }
 .one{
     background-color: rgb(61,123,61, 0.5);
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
     
 }
 
+.logo {
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+}
+.inf{
+    display: inline;
+   
+    position: absolute;
+   left: 30%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    
+    
+    
+    
+    
+
+    
+}
+.information{
+    text-decoration: none; 
+    padding-left: 70px ;
+    padding-right: 70px;
+    color: black;
+    
+
+}
+
+.otz {
+    text-decoration: none;
+    padding-left: 70px ;
+    padding-right: 70px;
+    color: black;
+}
+.write {
+    
+}
+.block {
+    border-bottom: 3px solid grey;
+}
