@@ -7,6 +7,7 @@ body{
 .test{
     margin-top: 10px;
     border-radius: 40%;
+    margin-bottom:45px;
 }
 .write{
     margin-top: 60px;
@@ -59,9 +60,25 @@ body{
     padding-right: 70px;
     color: black;
 }
-.write {
-    
-}
 .block {
-    border-bottom: 3px solid grey;
+    border-bottom: 4px solid grey;
+}
+.button{
+    text-align: center;
+    border: 3px solid black;
+    width: 25%;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: auto;
+}
+
+.button:hover{
+    background-color: lightgrey;
 }
