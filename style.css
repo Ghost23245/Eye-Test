@@ -37,14 +37,40 @@ body{
     padding-left: 150px;
     padding-right: 150px;
 
+}    
+.otzv1{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left:20px;
+}
+.otzv2{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left: 20px;
+}
+.otzv3{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left: 20px;
+}
+.otzv4{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left: 20px;
+}
     
+.Ot{
+    text-align: center;
+}
     
-    
-    
+.Name{
+    text-align: right;
+    margin-right: 10px;
+}
     
 
     
-}
+
 .information{
     text-decoration: none; 
     padding-left: 70px ;
