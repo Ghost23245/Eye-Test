@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
   <body>
+    
     <header>
     <div class="one">
-      <img class="logo" src="https://github.com/Ghost23245/Project1/blob/main/Group%204.png?raw=true">
+      <a href="index.html"><img class="logo" src="https://github.com/Ghost23245/Project1/blob/main/Group%204.png?raw=true"></a>
     
       <div class="inf">
-      <a class="information" style="font-size: 20px;" href="">Информация</a>
-      <a class="otz" style="font-size: 20px;" href="">Отзывы</a>
+      <a class="information" style="font-size: 20px;" href="index2.html">Информация</a>
+      <a class="otz" style="font-size: 20px;" href="index3.html">Отзывы</a>
     </div>
 
     </div>
@@ -43,12 +44,15 @@
   </div>
 <p style="text-align: center;"><img class="test" src="https://github.com/Ghost23245/Project1/blob/main/src/images.jpg?raw=true"></p>
 </div>
-<div class="button">
-  Подвести итог
-</div>
+
+<a class="button-wrapper">
+  <span class="button bg-yellow-500 px-16 py-4 rounded-full uppercase">Подвести результат<span>
+</a>
 
 <script>
-  document.querySelector(".button").addEventListener("click",function(){
+
+
+  document.querySelector(".button-wrapper").addEventListener("click",function(){
     let score = 0;
     let a1 = document.querySelector(".a1").value;
     if (a1 == "15"){
